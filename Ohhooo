@@ -1,0 +1,659 @@
+---CREATING WINDOW---
+
+local Library =
+loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("LightHub", "LightTheme")
+
+---END---
+
+---VTW---
+
+local Tab = Window:NewTab("V.T.W Section")
+
+local Section = Tab:NewSection("Tapper Stuff")
+
+Section:NewButton("Laser", "", function()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+end)
+
+Section:NewButton("Knife", "", function()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+end)
+
+local Section = Tab:NewSection("Continous Stuff")
+
+Section:NewToggle("Laser", "", function(state)
+    if state then
+        _G.sp = true
+while _G.sp == true do
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+wait()
+end
+    else
+        _G.sp = false
+while _G.sp == true do
+game:GetService("ReplicatedStorage").Attacks.SpaceRipper:FireServer()
+wait()
+end
+    end
+end)
+
+Section:NewToggle("Knife", "", function(state)
+    if state then
+        _G.sp = true
+while _G.sp == true do
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+wait()
+end
+    else
+        _G.sp = false
+while _G.sp == true do
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+wait()
+end
+    end
+end)
+
+---END---
+
+---TWOH---
+
+local Tab = Window:NewTab("TwOh Section")
+
+local Section = Tab:NewSection("Tapper Stuff")
+
+Section:NewButton("Thunder", "", function()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+end)
+
+Section:NewButton("Knife", "", function()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+end)
+
+local Section = Tab:NewSection("Continous Stuff")
+
+Section:NewToggle("Thunder", "", function(state)
+    if state then
+        _G.thunder = true
+while _G.thunder == true do
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+wait()
+end
+    else
+        _G.thunder = false
+while _G.thunder == true do
+game:GetService("ReplicatedStorage").SpecialMoves.HeavenlyLightningStrike:FireServer()
+wait()
+end
+    end
+end)
+Section:NewToggle("Knife", "", function(state)
+    if state then
+        _G.thunder = true
+while _G.thunder == true do
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+wait()
+end
+    else
+        _G.thunder = false
+while _G.thunder == true do
+game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer()
+wait()
+end
+    end
+end)
+local Section = 
+Tab:NewSection("Heal Stuff")
+Section:NewToggle("Heal Self", "", function(state)
+    if state then
+        _G.twoh = true
+while _G.twoh == true do
+local args = {
+    [1] = true,
+    [2] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [3] = math.huge,
+    [7] = 1,
+    [8] = "rbxassetid://1202656211",
+    [9] = 2.25
+}
+
+game:GetService("ReplicatedStorage").Attacks.Heal.OverHeavenHeal:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Attacks.Heal.OverHeavenHeal:FireServer(unpack(args))
+wait()
+end
+    else
+        _G.twoh = false
+while _G.twoh == true do
+local args = {
+    [1] = true,
+    [2] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [3] = math.huge,
+    [7] = 0.001,
+    [8] = "rbxassetid://1202656211",
+    [9] = 2.5
+}
+
+game:GetService("ReplicatedStorage").Attacks.Heal.OverHeavenHeal:FireServer(unpack(args))
+wait()
+end
+    end
+end)
+Section:NewToggle("Heal Everyone", " ", function(state)
+ if state then
+getgenv().Toggled =false
+if state then
+getgenv().Delay = 0
+local UIS=game:GetService'UserInputService'
+local function Source()
+local LP = game.Players.LocalPlayer
+local success, err = pcall(function()
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+
+local args = {
+    [1] = false,
+    [2] = v.Character.Humanoid,
+    [3] = math.huge,
+    [4] = v.Character.HumanoidRootPart.Position,
+    [7] = 0.001,
+    [8] = "rbxassetid://1202656211",
+    [9] = 2.25
+}
+
+game:GetService("ReplicatedStorage").Attacks.Heal.OverHeavenHeal:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Attacks.Heal.OverHeavenHeal:FireServer(unpack(args))
+wait()
+end
+end
+end)
+if err then
+warn(err)
+end
+end
+    if state then
+        if getgenv().Toggled then
+            getgenv().Toggled=false
+                    elseif not getgenv().Toggled then
+            getgenv().Toggled=true
+            while getgenv().Toggled do
+                Source()
+                wait(getgenv().Delay)
+            end
+        end
+    end
+end
+    else
+       getgenv().Toggled=false
+    end
+end)
+---END---
+
+---Ger---
+local GerTab = Window:NewTab("Ge/Ger Section")
+local GerSection = GerTab:NewSection("Ge/Ger Heal")
+GerSection:NewToggle("Heal", "", function(state)
+    if state then
+        _G.ger = true
+while _G.ger == true do
+local args = {
+    [1] = true,
+    [2] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [3] = 45,
+    [4] = CFrame.new(Vector3.new(-732.9583129882812, -5.808611869812012, 1605.6365966796875), Vector3.new(-0.9816098809242249, -0.0007686087628826499, 0.1908964365720749)),
+    [7] = 1,
+    [8] = "rbxassetid://4567255304",
+    [9] = 2.75
+}
+
+game:GetService("ReplicatedStorage").Attacks.Heal.GEHeal:FireServer(unpack(args))
+
+wait()
+end
+    else
+        _G.ger = false
+while _G.ger == true do
+local args = {
+    [1] = true,
+    [2] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [3] = 45,
+    [4] = CFrame.new(Vector3.new(-732.9583129882812, -5.808611869812012, 1605.6365966796875), Vector3.new(-0.9816098809242249, -0.0007686087628826499, 0.1908964365720749)),
+    [7] = 1,
+    [8] = "rbxassetid://4567255304",
+    [9] = 2.75
+}
+
+game:GetService("ReplicatedStorage").Attacks.Heal.GEHeal:FireServer(unpack(args))
+
+wait()
+end
+    end
+end)
+---End Ger Section
+
+---Tw Section
+local TwTab = Window:NewTab("Tw Section")
+local TwSection = TwTab:NewSection("Tapper Stuff")
+TwSection:NewButton("Knife", "", function()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+end)
+local TwSection = TwTab:NewSection("Tw Continous")
+TwSection:NewToggle("Dios Knife Throw", "Dios Knife Throw", function(state)
+    if state then
+        _G.thunder = true
+while _G.thunder == true do
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+wait()
+end
+    else
+        _G.thunder = false 
+while _G.thunder == true do
+game:GetService("ReplicatedStorage").Attacks.DioKnifeThrow:FireServer()
+wait()
+end
+    end
+end)
+---End Tw Section
+
+---Hamon Section
+local HamonTab = Window:NewTab("Hamon Scripts")
+local HamonSection = HamonTab:NewSection("Sendo Stuff")
+HamonSection:NewToggle("Inf Sendo", "Use Hamon", function(state)
+    if state then
+        _G.loop = true 
+ 
+        while _G.loop == true do 
+        local args = {
+    [1] = "SendoRipple"
+}
+ 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+wait()
+end
+    else
+        _G.loop = false 
+ 
+        while _G.loop == true do 
+        local args = {
+    [1] = "SendoRipple"
+}
+ 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+game:GetService("Players").LocalPlayer.Backpack.Hamon.HamonLocalisedRemote:FireServer(unpack(args)) 
+wait()
+end
+    end
+end)
+local HamonSection = HamonTab:NewSection("Other Stuff")
+HamonSection:NewButton("Get Hamon", "Get hamon ", function()   game:GetService("ReplicatedStorage").AbilityGiver.GetHamon:FireServer()
+end)
+---End Hamon Section
+
+---Sp Section
+local SpTab = Window:NewTab("Sp Scripts")
+local SpSection = SpTab:NewSection("Sp Tapper")
+SpSection:NewButton("Rock Throw", " ", function()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+
+end)
+local SpSection = SpTab:NewSection("Sp Continuous")
+SpSection:NewToggle("Rock Throw", " ", function(state)
+    if state then
+        _G.sp = true
+while _G.sp == true do
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+wait()
+end
+    else
+        _G.sp = false
+while _G.sp == true do
+game:GetService("ReplicatedStorage").Attacks.RockThrow:FireServer()
+wait()
+end
+    end
+end)
+---End Sp Section
+
+---Th Section
+local ThTab = Window:NewTab("Th Scripts")
+local ThSection = ThTab:NewSection("Th Stuff")
+ThSection:NewToggle("Erasure Pull", "Pull ", function(state)
+    if state then
+        _G.loop = true 
+ 
+        while _G.loop == true do 
+        local args = {
+    [1] = "Pull",
+    [2] = 50
+}
+ 
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("The Hand").THLocalisedRemote:FireServer(unpack(args)) 
+wait(3)
+end
+    else
+        _G.loop = false 
+ 
+        while _G.loop == true do 
+        local args = {
+    [1] = "Pull",
+    [2] = 50
+}
+ 
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("The Hand").THLocalisedRemote:FireServer(unpack(args)) 
+wait(3)
+end
+    end
+end)
+---End Th Section
+
+---Kc Section
+local KcTab = Window:NewTab("Kc Scripts")
+local KcSection = KcTab:NewSection("Kc Tapper")
+KcSection:NewButton("Blood Throw", "Blind Player", function()
+    local args = {
+    [1] = "BloodThrow",
+    [2] = nil --[[Vector3]]
+}
+
+game:GetService("Players").LocalPlayer.Backpack["King Crimson"].KCLocalisedRemote:FireServer(unpack(args))
+end)
+local KcSection = KcTab:NewSection("Kc Stuff")
+KcSection:NewToggle("Immortal", "God Mode ", function(state)
+    if state then
+     _G.epitah = true
+while _G.epitah == true do
+local args = {
+    [1] = "Epitaph"
+}
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("King Crimson").KCLocalisedRemote:FireServer(unpack(args))
+wait()
+end
+    else
+        _G.epitah = false
+while _G.epitah == true do
+local args = {
+    [1] = "Epitaph"
+}
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("King Crimson").KCLocalisedRemote:FireServer(unpack(args))
+wait()
+end
+    end
+end)
+---End Kc Section
+
+---Other Section
+local essenTab = Window:NewTab("More Scripts")
+local essenSection = essenTab:NewSection("Other Stuff")
+essenSection:NewButton("Fly Gui V3", "Fly", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iQRpDC1P"))()
+end)
+essenSection:NewButton("Fly [E] (Only In Pc)", "Fly", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/N7S0FPAb"))()
+end)
+essenSection:NewButton("Infinite Yield", "Admin Panel", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jEWQQQcR"))()
+end)
+essenSection:NewButton("By Pass Ts", "Movement Ts", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/NWDdgUpb"))()
+end)
+essenSection:NewButton("No Cooldown", "No Cd", function()
+g = hookfunction(wait, function(seconds) return g(0.1) end)
+end)
+essenSection:NewToggle("Auto Block", "Protection", function(state)
+    if state then
+        _G.loop = true 
+ 
+        while _G.loop == true do 
+        local args = {
+    [1] = true
+}
+ 
+game:GetService("ReplicatedStorage").Basic.Block:FireServer(unpack(args)) 
+wait(1)
+end
+    else
+        _G.loop = false 
+ 
+        while _G.loop == true do 
+        local args = {
+    [1] = true
+}
+ 
+game:GetService("ReplicatedStorage").Basic.Block:FireServer(unpack(args)) 
+wait(1)
+end
+    end
+end)
+local essenSection = essenTab:NewSection("Other Stuff")
+essenSection:NewButton("Key Board", "Board Of The Computer", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+essenSection:NewButton("Idle Animation", "Animation", function()
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://6510360380"
+local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+k:Play()
+k.TimePosition = 1.2
+k:AdjustSpeed(0)
+while true do
+k.TimePosition = .6
+task.wait(.3)
+k.TimePosition = 1
+task.wait(.3)
+k.TimePosition = .5
+task.wait(.3)
+end
+end)
+local essenSection = essenTab:NewSection("Aura Stuff")
+essenSection:NewToggle("Kill Aura", "Kill", function(state)
+    if state then
+getgenv().Toggled =false
+if state then
+getgenv().Delay = 0
+local UIS=game:GetService'UserInputService'
+local function Source()
+local LP = game.Players.LocalPlayer
+local success, err = pcall(function()
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = 100,
+    [3] = v.Character.HumanoidRootPart.Position,
+    [4] = v.Character.HumanoidRootPart.Position,
+    [5] = 0.1,
+    [6] = 1,
+    [7] = "rbxassetid://260430079",
+    [8] = 0.6
+}
+
+game:GetService("ReplicatedStorage").Attacks.DamageBlunt:FireServer(unpack(args))
+local args = {
+    [1] = v.Character
+}
+
+game:GetService("ReplicatedStorage").SpecialMoves.BlockBreak:FireServer(unpack(args))
+end
+end
+end)
+if err then
+warn(err)
+end
+end
+    if state then
+        if getgenv().Toggled then
+            getgenv().Toggled=false
+                    elseif not getgenv().Toggled then
+            getgenv().Toggled=true
+            while getgenv().Toggled do
+                Source()
+                wait(getgenv().Delay)
+            end
+        end
+    end
+end
+    else
+       getgenv().Toggled=false
+    end
+end)
+local essenSection = essenTab:NewSection("Player Stuff")
+essenSection:NewSlider("WalkSpeed", "WalkSpeed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+essenSection:NewSlider("JumpPower", "Your JumpPower", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+essenSection:NewButton("Reset", "Resets", function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+---End Other Section
